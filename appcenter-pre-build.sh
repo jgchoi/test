@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Place this script in project/ios/
 
 echo "Uninstalling all CocoaPods versions"
 sudo gem uninstall cocoapods --all --executables
