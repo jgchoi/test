@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite errors="0" failures="0" tests="2" skipped="0" name=".Users.choij.mobile_iam_poc.test.widget" timestamp="2022-09-24T14:56:27">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname=".Users.choij.mobile_iam_poc.test.widget" name="This is test of test" time="0.032"/>
+    <testcase classname=".Users.choij.mobile_iam_poc.test.widget" name="Sample Widget Test" time="1.061"/>
+  </testsuite>
+</testsuites>

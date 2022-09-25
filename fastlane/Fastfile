@@ -1,0 +1,16 @@
+lane :run_sonar do
+  begin
+    sonar(
+      branch_name: ENV["GIT_BRANCH"],
+      sonar_login: ENV["SONARQUBE_TOKEN"],
+      sonar_url: ENV["SONAR_HOST_URL"]
+    )
+  rescue => ex
+    puts "🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑"
+    puts "🛑               ERROR FROM run_sonar                 🛑"
+    puts ""
+    puts ex
+    puts ""
+    puts "🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑"
+  end
+end

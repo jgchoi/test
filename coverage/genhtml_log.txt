@@ -1,0 +1,12 @@
+Reading data file coverage/lcov.info
+Resolved relative source file path "lib/views/login_view.dart" with CWD to "/Users/choij/mobile-iam-poc/lib/views/login_view.dart".
+Found 2 entries.
+Found common filename prefix "/Users/choij/mobile-iam-poc/lib"
+Writing .css and .png files.
+Generating output.
+Processing file services/app_auth_service.dart
+Processing file views/login_view.dart
+Writing directory view page.
+Overall coverage rate:
+  lines......: 41.5% (17 of 41 lines)
+  functions..: no data found

@@ -1,0 +1,4 @@
+#Wed Sep 14 09:46:46 EDT 2022
+base.0=/Users/choij/mobile-iam-poc/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
