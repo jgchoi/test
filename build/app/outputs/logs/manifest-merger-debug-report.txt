@@ -19,14 +19,20 @@ INJECTED from /Users/choij/test/android/app/src/main/AndroidManifest.xml:1:1-34:
 INJECTED from /Users/choij/test/android/app/src/main/AndroidManifest.xml:1:1-34:12
 INJECTED from /Users/choij/test/android/app/src/main/AndroidManifest.xml:1:1-34:12
 MERGED from /Users/choij/test/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:appcenter_analytics] /Users/choij/test/build/appcenter_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_appauth] /Users/choij/test/build/flutter_appauth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:integration_test] /Users/choij/test/build/integration_test/intermediates/merged_manifest/debug/AndroidManifest.xml:7:1-14:12
+MERGED from [:appcenter_crashes] /Users/choij/test/build/appcenter_crashes/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:appcenter] /Users/choij/test/build/appcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.10.0] /Users/choij/.gradle/caches/transforms-3/77d1421182b7446e75ad72b8c6623924/transformed/jetified-appcenter-analytics-1.10.0/AndroidManifest.xml:2:1-11:12
 MERGED from [net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:15:1-55:12
 MERGED from [androidx.test:rules:1.2.0] /Users/choij/.gradle/caches/transforms-3/9bf41b629cfc0bc1a29262a5e0c0dcd2/transformed/rules-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.test.espresso:espresso-core:3.2.0] /Users/choij/.gradle/caches/transforms-3/5856d04062f03ff101e4b0bdca3ed148/transformed/espresso-core-3.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.test:runner:1.2.0] /Users/choij/.gradle/caches/transforms-3/e1d3dce68f91f9c64fdfb367cbb7e7ce/transformed/runner-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.10.0] /Users/choij/.gradle/caches/transforms-3/8b64df9ef8f7d064f7a390a36ba80d44/transformed/jetified-appcenter-crashes-1.10.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/choij/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.3.0] /Users/choij/.gradle/caches/transforms-3/2efeb32dcb56b0d2799ab543d25b1181/transformed/browser-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.4] /Users/choij/.gradle/caches/transforms-3/b22ca91cb7e5836c5d78d9336476da77/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
@@ -74,14 +80,22 @@ uses-sdk
 INJECTED from /Users/choij/test/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/choij/test/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/choij/test/android/app/src/main/AndroidManifest.xml
+MERGED from [:appcenter_analytics] /Users/choij/test/build/appcenter_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter_analytics] /Users/choij/test/build/appcenter_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_appauth] /Users/choij/test/build/flutter_appauth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_appauth] /Users/choij/test/build/flutter_appauth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:integration_test] /Users/choij/test/build/integration_test/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-12:41
 MERGED from [:integration_test] /Users/choij/test/build/integration_test/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-12:41
+MERGED from [:appcenter_crashes] /Users/choij/test/build/appcenter_crashes/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter_crashes] /Users/choij/test/build/appcenter_crashes/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter] /Users/choij/test/build/appcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter] /Users/choij/test/build/appcenter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.10.0] /Users/choij/.gradle/caches/transforms-3/77d1421182b7446e75ad72b8c6623924/transformed/jetified-appcenter-analytics-1.10.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.10.0] /Users/choij/.gradle/caches/transforms-3/77d1421182b7446e75ad72b8c6623924/transformed/jetified-appcenter-analytics-1.10.0/AndroidManifest.xml:7:5-9:41
 MERGED from [net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:18:5-20:41
 MERGED from [net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.test:rules:1.2.0] /Users/choij/.gradle/caches/transforms-3/9bf41b629cfc0bc1a29262a5e0c0dcd2/transformed/rules-1.2.0/AndroidManifest.xml:20:5-22:41
@@ -90,6 +104,10 @@ MERGED from [androidx.test.espresso:espresso-core:3.2.0] /Users/choij/.gradle/ca
 MERGED from [androidx.test.espresso:espresso-core:3.2.0] /Users/choij/.gradle/caches/transforms-3/5856d04062f03ff101e4b0bdca3ed148/transformed/espresso-core-3.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test:runner:1.2.0] /Users/choij/.gradle/caches/transforms-3/e1d3dce68f91f9c64fdfb367cbb7e7ce/transformed/runner-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test:runner:1.2.0] /Users/choij/.gradle/caches/transforms-3/e1d3dce68f91f9c64fdfb367cbb7e7ce/transformed/runner-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.10.0] /Users/choij/.gradle/caches/transforms-3/8b64df9ef8f7d064f7a390a36ba80d44/transformed/jetified-appcenter-crashes-1.10.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.10.0] /Users/choij/.gradle/caches/transforms-3/8b64df9ef8f7d064f7a390a36ba80d44/transformed/jetified-appcenter-crashes-1.10.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/choij/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/choij/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.3.0] /Users/choij/.gradle/caches/transforms-3/2efeb32dcb56b0d2799ab543d25b1181/transformed/browser-1.3.0/AndroidManifest.xml:20:5-22:41
@@ -154,6 +172,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/choij/test/android/app/src/debug/AndroidManifest.xml:7:5-66
 MERGED from [net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:22:5-67
 MERGED from [net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:22:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:11:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from /Users/choij/test/android/app/src/debug/AndroidManifest.xml:7:22-64
 uses-library#androidx.window.extensions
@@ -210,3 +230,7 @@ category#android.intent.category.DEFAULT
 ADDED from [net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:47:17-76
 	android:name
 		ADDED from [net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:47:27-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:12:22-76

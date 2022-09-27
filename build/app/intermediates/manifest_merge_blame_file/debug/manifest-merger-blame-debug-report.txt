@@ -34,95 +34,99 @@
 24        </intent>
 25    </queries>
 26
-27    <application
-28        android:name="android.app.Application"
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.6.0] /Users/choij/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
-30        android:debuggable="true"
-31        android:icon="@mipmap/ic_launcher"
-32        android:label="mobile_iam_poc" >
-33        <activity
-34            android:name="com.example.mobile_iam_poc.MainActivity"
-35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-36            android:exported="true"
-37            android:hardwareAccelerated="true"
-38            android:launchMode="singleTop"
-39            android:theme="@style/LaunchTheme"
-40            android:windowSoftInputMode="adjustResize" >
-41
-42            <!--
-43                 Specifies an Android theme to apply to this Activity as soon as
-44                 the Android process has started. This theme is visible to the user
-45                 while the Flutter UI initializes. After that, this theme continues
-46                 to determine the Window background behind the Flutter UI.
-47            -->
-48            <meta-data
-49                android:name="io.flutter.embedding.android.NormalTheme"
-50                android:resource="@style/NormalTheme" />
-51
-52            <intent-filter>
-53                <action android:name="android.intent.action.MAIN" />
-54
-55                <category android:name="android.intent.category.LAUNCHER" />
-56            </intent-filter>
-57        </activity>
-58        <!--
-59             Don't delete the meta-data below.
-60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-61        -->
-62        <meta-data
-63            android:name="flutterEmbedding"
-64            android:value="2" />
-65
-66        <uses-library
-66-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-67            android:name="androidx.window.extensions"
-67-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-68            android:required="false" />
-68-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-69        <uses-library
-69-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-70            android:name="androidx.window.sidecar"
-70-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-71            android:required="false" />
-71-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-72
-73        <activity
-73-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:35:9-40:77
-74            android:name="net.openid.appauth.AuthorizationManagementActivity"
-74-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:36:13-78
-75            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
-75-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:37:13-115
-76            android:exported="false"
-76-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:38:13-37
-77            android:launchMode="singleTask"
-77-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:39:13-44
-78            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar" />
-78-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:40:13-74
-79        <activity
-79-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:41:9-52:20
-80            android:name="net.openid.appauth.RedirectUriReceiverActivity"
-80-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:42:13-74
-81            android:exported="true" >
-81-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:43:13-36
-82            <intent-filter>
-82-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:44:13-51:29
-83                <action android:name="android.intent.action.VIEW" />
-83-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:26:13-65
-83-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:26:21-62
-84
-85                <category android:name="android.intent.category.DEFAULT" />
-85-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:47:17-76
-85-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:47:27-73
-86                <category android:name="android.intent.category.BROWSABLE" />
-86-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:28:13-74
-86-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:28:23-71
-87
-88                <data android:scheme="app" />
-88-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:30:13-44
-88-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:30:19-41
-89            </intent-filter>
-90        </activity>
-91    </application>
-92
-93</manifest>
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:12:5-79
+27-->[com.microsoft.appcenter:appcenter:1.10.0] /Users/choij/.gradle/caches/transforms-3/41b568de6b0a7c06de294f05b56ea985/transformed/jetified-appcenter-1.10.0/AndroidManifest.xml:12:22-76
+28
+29    <application
+30        android:name="android.app.Application"
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.6.0] /Users/choij/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+34        android:label="mobile_iam_poc" >
+35        <activity
+36            android:name="com.example.mobile_iam_poc.MainActivity"
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38            android:exported="true"
+39            android:hardwareAccelerated="true"
+40            android:launchMode="singleTop"
+41            android:theme="@style/LaunchTheme"
+42            android:windowSoftInputMode="adjustResize" >
+43
+44            <!--
+45                 Specifies an Android theme to apply to this Activity as soon as
+46                 the Android process has started. This theme is visible to the user
+47                 while the Flutter UI initializes. After that, this theme continues
+48                 to determine the Window background behind the Flutter UI.
+49            -->
+50            <meta-data
+51                android:name="io.flutter.embedding.android.NormalTheme"
+52                android:resource="@style/NormalTheme" />
+53
+54            <intent-filter>
+55                <action android:name="android.intent.action.MAIN" />
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+65            android:name="flutterEmbedding"
+66            android:value="2" />
+67
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+69            android:name="androidx.window.extensions"
+69-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+71        <uses-library
+71-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+72            android:name="androidx.window.sidecar"
+72-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0-beta04] /Users/choij/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+74
+75        <activity
+75-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:35:9-40:77
+76            android:name="net.openid.appauth.AuthorizationManagementActivity"
+76-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:36:13-78
+77            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
+77-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:37:13-115
+78            android:exported="false"
+78-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:38:13-37
+79            android:launchMode="singleTask"
+79-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:39:13-44
+80            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar" />
+80-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:40:13-74
+81        <activity
+81-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:41:9-52:20
+82            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+82-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:42:13-74
+83            android:exported="true" >
+83-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:43:13-36
+84            <intent-filter>
+84-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:44:13-51:29
+85                <action android:name="android.intent.action.VIEW" />
+85-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:26:13-65
+85-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:26:21-62
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:47:17-76
+87-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:47:27-73
+88                <category android:name="android.intent.category.BROWSABLE" />
+88-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:28:13-74
+88-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:28:23-71
+89
+90                <data android:scheme="app" />
+90-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:30:13-44
+90-->[net.openid:appauth:0.11.1] /Users/choij/.gradle/caches/transforms-3/ffd0972c9357ccb92861f0775f22a23c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml:30:19-41
+91            </intent-filter>
+92        </activity>
+93    </application>
+94
+95</manifest>
