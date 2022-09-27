@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/choij/mobile-iam-poc/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/choij/test/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/choij/.gradle/caches/transforms-3/b22ca91cb7e5836c5d78d9336476da77/transformed/fragment-1.3.4/res/values/values.xml",
@@ -112,6 +112,25 @@
                     }
                 },
                 {
+                    "source": "/Users/choij/test/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "1404,1409",
+                        "startColumns": "4,4",
+                        "startOffsets": "90929,91237",
+                        "endLines": "1408,1411",
+                        "endColumns": "12,12",
+                        "endOffsets": "91232,91401"
+                    }
+                },
+                {
                     "source": "/Users/choij/.gradle/caches/transforms-3/28c6c5691bb0a1235ccf3d69b2a7721a/transformed/jetified-savedstate-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -145,25 +164,6 @@
                         "endLines": "5,24,25,64,65,169,170,171,172,173,174,175,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,250,251,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,281,314,1683,1687,1688,1692,1693,1847,1848,2588,2595,2689,2721,2767,2774",
                         "endColumns": "59,71,87,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24,24",
                         "endOffsets": "309,1376,1464,4095,4158,11226,11294,11366,11436,11497,11571,11644,12489,12550,12612,12676,12738,12799,12867,12967,13027,13093,13166,13235,13292,13344,13406,13931,14007,14072,14131,14190,14250,14310,14370,14430,14490,14550,14610,14670,14730,14790,14849,14909,14969,15029,15089,15149,15209,15269,15329,15389,15449,15508,15568,15628,15687,15746,15805,15864,15923,15982,16373,16408,16670,16733,16788,16846,16904,16965,17028,17085,17136,17186,17247,17304,17370,17404,17439,17474,18030,20303,112812,113013,113123,113324,113453,125464,125531,165823,166121,171964,174029,176108,176485"
-                    }
-                },
-                {
-                    "source": "/Users/choij/mobile-iam-poc/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "1404,1409",
-                        "startColumns": "4,4",
-                        "startOffsets": "90929,91237",
-                        "endLines": "1408,1411",
-                        "endColumns": "12,12",
-                        "endOffsets": "91232,91401"
                     }
                 },
                 {

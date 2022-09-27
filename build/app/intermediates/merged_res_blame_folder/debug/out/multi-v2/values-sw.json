@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/choij/mobile-iam-poc/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/Users/choij/test/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/Users/choij/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/values-sw/values-sw.xml",
