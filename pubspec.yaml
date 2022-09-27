@@ -37,6 +37,9 @@ dependencies:
   flutter_appauth: ^4.2.0
   dio: ^4.0.6
   cobertura: ^1.0.3
+  appcenter: ^0.2.1
+  appcenter_analytics: ^0.2.1
+  appcenter_crashes: ^0.2.1
 
 dev_dependencies:
   integration_test:
