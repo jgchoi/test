@@ -2,24 +2,6 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "appcenter",
-      "rootUri": "file:///Users/choij/flutter/.pub-cache/hosted/pub.dartlang.org/appcenter-0.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
-      "name": "appcenter_analytics",
-      "rootUri": "file:///Users/choij/flutter/.pub-cache/hosted/pub.dartlang.org/appcenter_analytics-0.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
-      "name": "appcenter_crashes",
-      "rootUri": "file:///Users/choij/flutter/.pub-cache/hosted/pub.dartlang.org/appcenter_crashes-0.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "archive",
       "rootUri": "file:///Users/choij/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.3.0",
       "packageUri": "lib/",
@@ -308,7 +290,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-09-27T18:29:35.394737Z",
+  "generated": "2022-09-28T17:55:59.183005Z",
   "generator": "pub",
   "generatorVersion": "2.18.1"
 }
